@@ -1,7 +1,6 @@
 # Telecom Churn Case Study Hackathon
 
-> This project uses housing data from Kaggle competition to detetect the house price in australian market.
-> regression to determine the house price and determine what are the parameters that positively and negatively affects the house price
+> Predict churning customers for a Telecom company based on temporal behaviour
 
 ## Table of Contents
 
