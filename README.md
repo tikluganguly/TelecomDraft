@@ -1,4 +1,4 @@
-# House Price Detection - Kaggle Competition
+# Telecom Churn Case Study Hackathon
 
 > This project uses housing data from Kaggle competition to detetect the house price in australian market.
 > regression to determine the house price and determine what are the parameters that positively and negatively affects the house price
@@ -6,45 +6,21 @@
 ## Table of Contents
 
 - [General Info](#general-information)
-- [Technologies Used](#technologies-used)
 - [Conclusions](#conclusions)
+- [Technologies Used](#technologies-used)
+- [Author](#author)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
 
-A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
-
-The company is looking at prospective properties to buy to enter the market. You are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
-
-The company wants to know:
-Which variables are significant in predicting the price of a house, and
-How well those variables describe the price of a house.
+In the telecom industry, customers are able to choose from multiple service providers and actively switch from one operator to another. In this highly competitive market, the telecommunications industry experiences an average of 15-25% annual churn rate. Given the fact that it costs 5-10 times more to acquire a new customer than to retain an existing one, customer retention has now become even more important than customer acquisition.
+For many incumbent operators, retaining high profitable customers is the number one business goal. To reduce customer churn, telecom companies need to predict which customers are at high risk of churn. In this project, you will analyze customer-level data of a leading telecom firm, build predictive models to identify customers at high risk of churn.
+In this competition, your goal is to build a machine learning model that is able to predict churning customers based on the features provided for their usage.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-
-- We should choose Ridge over Lasso as Lasso is doing overfitting of the data and Ridge is not overfitting
-- Here are some of the variables that effects the value of the property positively
-  - **Above grade (ground) living area square feet**
-  - **OverallQual:** Rates the overall material and finish of the house - any value from 8 (Very Good) increases the price. But for Quality anything from 7 affects the price negatively
-  - For **Neighborhood** that gives higher to lower price effects are Northridge, Northridge Heights, Crawford, Stone Brook, Somerset and Veenker. Also,the price of the property is negatively effected if the neighborhood is in Edwards, North Ames, Mitchell, Meadow Village, Gilbert, Old Town,
-  - **First Floor** square feet
-  - **Second floor** square feet
-  - **Roof material** - The price positively affects if the materials are Wood Shingles, Standard (Composite) Shingle, Other materials does not add much value
-  - **Size of garage in car capacity**
-  - **Size of garage in square feet**
-  - **Full bathrooms** above grade
-  - **Total rooms** above grade (does not include bathrooms)
-  - Good **Basement exposure** increases the price but for any other cases like Minimum, No exposure or if No basement available then the price is negatively effected.
-  - Total square feet of **basement area**
-  - **Masonry veneer area** in square feet
-  - **Remodel date**
-  - **Lot size** in square feet
-  - **Number of fireplaces**
-  - **Basement full bathrooms**
-- Some of the paramerers that negatively affects the value of the property are as follows - The **property is near** positive off-site feature--park, greenbelt, etc. - The **height of the basement** less than 100 inches - The **quality of the material on the exterior** is typical or less. - **Kitchen quality** is not excellent (Good, Typical,Fair etc) - The **quality of the material on the exterior** is Typical or less - **Fireplace quality** is fair, poor avarage or no fireplace available - General **shape of property** is irregular
 
 ## Technologies Used
 
@@ -54,9 +30,11 @@ How well those variables describe the price of a house.
 - seaborn
 - sklearn
 
-## Contact
+## Author
 
-Created by [@tikluganguly] - feel free to contact me!
+- Venkata Kiran Kudupudi
+- Anirban Ganguly
+- Tirumalesh Yeligar
 
 <!-- Optional -->
 <!-- ## License -->
